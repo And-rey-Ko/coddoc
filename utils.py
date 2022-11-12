@@ -12,3 +12,5 @@ def load_random_word(w):
     return BasicWord(w["word"], w["subwords"])
 
 
+def minus(a, b):
+    return a - b
